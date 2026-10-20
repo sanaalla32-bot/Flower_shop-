@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>see the world from my view | عن المتجر</title>
+</head>
+<body bgcolor="#fde4ec" text="#4a2a35" link="#880e4f" vlink="#880e4f">
+  <a name="top" id="top"></a>
+  <br>
+
+  <!-- مربع العنوان الأبيض -->
+  <table align="center" bgcolor="#ffffff" width="90%" cellpadding="20" cellspacing="0">
+    <tr>
+      <td align="center">
+        <h1><font color="#c2185b" face="Georgia">see the world from my view</font></h1>
+        <p>نحن نصنع السعادة ونقدمها بأسلوب عصري</p>
+      </td>
+    </tr>
+  </table>
+
+  <p align="center">
+    <a href="index.html">تسجيل الدخول</a> |
+    <a href="about.html">عن المتجر</a> |
+    <a href="pots.html">الأصص</a> |
+    <a href="bouquets.html">البوكيهات</a>
+  </p>
+
+  <table align="center" bgcolor="#ffffff" width="90%" cellpadding="20" cellspacing="0">
+    <tr>
+      <td align="center">
+        <h2><font color="#c2185b">نبذة عن المتجر</font></h2>
+        <p>متجر زهور يجمع بين جمال الطبيعة والذوق العصري. نختار كل زهرة بعناية
+        لتصل إليك طازجة وبتنسيق يعبّر عن مشاعرك في كل مناسبة.</p>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <table align="center" bgcolor="#ffffff" width="90%" cellpadding="20" cellspacing="0">
+    <tr>
+      <td align="center">
+        <h2><font color="#c2185b">عن البراند</font></h2>
+        <p><b>see the world from my view</b> فكرة بسيطة: لكل شخص طريقته في رؤية العالم،
+        ونحن نترجمها إلى زهور. شعارنا «نحن نصنع السعادة ونقدمها بأسلوب عصري».</p>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <table align="center" bgcolor="#ffffff" width="90%" cellpadding="20" cellspacing="0">
+    <tr>
+      <td align="center">
+        <h2><font color="#c2185b">خدماتنا</font></h2>
+        <h3>الأصص</h3>
+        <p>أصص نباتات وزهور طبيعية بأحجام وتصاميم مختلفة، تناسب المنزل
+        والمكتب وتصلح كهدية تدوم طويلاً.</p>
+        <h3>البوكيهات</h3>
+        <p>بوكيهات زهور منسقة بأسلوب عصري للمناسبات.</p>
+        <h3>المناسبات التي نخدمها</h3>
+        <ul type="disc">
+          <li>أعياد الميلاد</li>
+          <li>التخرج</li>
+          <li>الخطوبة والزواج</li>
+          <li>التهنئة والزيارات</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <table align="center" bgcolor="#ffffff" width="90%" cellpadding="20" cellspacing="0">
+    <tr>
+      <td align="center">
+        <h2><font color="#c2185b">كيف تطلبين؟</font></h2>
+        <ol>
+          <li>اختاري المنتج من صفحة الأصص أو البوكيهات.</li>
+          <li>املئي نموذج الطلب في أسفل هذه الصفحة.</li>
+          <li>نتواصل معك لتأكيد الطلب والتفاصيل.</li>
+          <li>نجهّز الطلب ونسلّمه في الموعد.</li>
+        </ol>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <table align="center" bgcolor="#ffffff" width="90%" cellpadding="20" cellspacing="0" id="faq">
+    <tr>
+      <td align="center">
+        <h2><font color="#c2185b">الأسئلة الشائعة</font></h2>
+        <details>
+          <summary>كم تستغرق مدة التوصيل؟</summary>
+          <p>من يوم إلى يومين حسب موقعك.</p>
+        </details>
+        <details>
+          <summary>هل يمكن تخصيص البوكيه؟</summary>
+          <p>نعم، تختارين الزهور والألوان وتضيفين بطاقة إهداء.</p>
+        </details>
+        <details>
+          <summary>كيف أعتني بالأصيص؟</summary>
+          <p>موقع مضيء بدون شمس مباشرة، وسقاية منتظمة حسب نوع النبات.</p>
+        </details>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <table align="center" bgcolor="#ffffff" width="500" cellpadding="20" cellspacing="0" id="order">
+    <tr>
+      <td align="center">
+        <h2><font color="#c2185b">اطلبي الآن</font></h2>
+        <!-- في مرحلة PHP سنغيّر action إلى order.php -->
+        <form action="about.html" method="post">
+          <fieldset>
+            <legend>بيانات الطلب</legend>
+            <p><label for="oname">الاسم</label><br>
+               <input type="text" id="oname" name="name" size="30" required></p>
+            <p><label for="ophone">رقم الهاتف</label><br>
+               <input type="tel" id="ophone" name="phone" size="30" required></p>
+            <p><label for="oprod">المنتج</label><br>
+               <select id="oprod" name="product">
+                 <option>أصيص</option>
+                 <option>بوكيه</option>
+               </select></p>
+            <p>الحجم:<br>
+               <input type="radio" id="s1" name="size" value="small" checked><label for="s1"> صغير</label>
+               <input type="radio" id="s2" name="size" value="medium"><label for="s2"> وسط</label>
+               <input type="radio" id="s3" name="size" value="large"><label for="s3"> كبير</label></p>
+            <p>إضافات:<br>
+               <input type="checkbox" id="x1" name="extras" value="card"><label for="x1"> بطاقة إهداء</label>
+               <input type="checkbox" id="x2" name="extras" value="wrap"><label for="x2"> تغليف هدية</label>
+               <input type="checkbox" id="x3" name="extras" value="delivery"><label for="x3"> توصيل للمنزل</label></p>
+            <p><label for="odate">تاريخ التسليم</label><br>
+               <input type="date" id="odate" name="date"></p>
+            <p><label for="onote">رسالة أو ملاحظات</label><br>
+               <textarea id="onote" name="note" rows="4" cols="30"></textarea></p>
+          </fieldset>
+          <p><input type="submit" value="إرسال الطلب"> <input type="reset" value="مسح"></p>
+        </form>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <table align="center" bgcolor="#ffffff" width="90%" cellpadding="20" cellspacing="0" id="map">
+    <tr>
+      <td align="center">
+        <h2><font color="#c2185b">موقع المتجر</font></h2>
+        <!-- غيّري عنوان المكان في q= إلى موقع متجرك -->
+        <iframe title="موقع المتجر" width="100%" height="300" frameborder="0"
+          src="https://www.google.com/maps?q=Wad+Madani&amp;output=embed"></iframe>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <p align="center"><a href="#top">&#8593; العودة للأعلى</a></p>
+  <p align="center"><font color="#4a2a35">&copy; see the world from my view</font></p>
+
+</body>
+</html>
